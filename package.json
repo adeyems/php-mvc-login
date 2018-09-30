@@ -1,0 +1,19 @@
+{
+  "name": "php-mvc",
+  "version": "1.0.0",
+  "description": "This is a simple MVC framework for building web applications in PHP. It's free and [open-source](LICENSE).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daveh/php-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveh/php-mvc/issues"
+  },
+  "homepage": "https://github.com/daveh/php-mvc#readme"
+}
