@@ -1,19 +1,21 @@
 {
-  "name": "php-mvc",
+  "name": "php-mvc-login",
   "version": "1.0.0",
-  "description": "This is a simple MVC framework for building web applications in PHP. It's free and [open-source](LICENSE).",
-  "main": "index.js",
+  "description": "my gulp learn test",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daveh/php-mvc.git"
-  },
-  "author": "",
+  "author": "Qudus",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daveh/php-mvc/issues"
-  },
-  "homepage": "https://github.com/daveh/php-mvc#readme"
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-uglifycss": "^1.1.0"
+  }
 }

@@ -122,3 +122,39 @@ If the `SHOW_ERRORS` configuration setting is set to `true`, full error detail w
 Pretty URLs are enabled using web server rewrite rules. An [.htaccess](public/.htaccess) file is included in the `public` folder. Equivalent nginx configuration is in the [nginx-configuration.txt](nginx-configuration.txt) file.
 
 ---
+##Optimizing your files
+
+Optimize your HTML, CSS, JS and Image files with gulp
+
+### Folder
+Javascript files - src/js folder
+CSS files - src/js folder
+HTML files - src/
+Image files - src/images/
+
+
+##DevDependencies
+glup
+gulp-imagemin
+gulp-concat
+gulp-uglifycss
+gulp-minify
+gulp-htmlmin
+gulp-notify
+gulp-clean
+gulp-runsequence
+
+## Install Dependencies
+```bash
+npm install
+```
+
+## Run all tasks
+```bash
+gulp
+```
+
+## Watch all tasks/files
+```bash
+gulp watch
+```
